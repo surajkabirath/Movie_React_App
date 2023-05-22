@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
+:root {
+  --font-family: 'Manrope', sans-serif;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-text1: linear-gradient(89.97deg, #d4c627 1.84%, #f60c0c 102.67%);
+
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-text2: linear-gradient(89.97deg, #ced427 1.84%, #950cf6 102.67%);
+  
+  --color-bg: #091427;
+  --color-footer : #062a51;
+  --color-blog: #07417b;
+  --color-text: #426af9;
+  --color-subtext: #FF8A71;
+  --color-white:#
 }
